@@ -56,9 +56,6 @@ nmap <Leader>w :w<CR>
 "remove search highlight
 nmap <Leader>n :noh<CR>
 
-"Automatically add {} closing bracket
-inoremap {<CR> {<CR>}<C-o>O
-
 nmap <Leader>nt :NERDTree<CR>
 
 if has("gui_running")
