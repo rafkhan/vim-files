@@ -23,7 +23,7 @@ set smarttab
 "
 " TOGGLE FOR SPACES
 "
-"set expandtab
+set expandtab
 
 set showmatch
 set ignorecase
