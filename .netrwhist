@@ -1,3 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =3
 let g:netrw_dirhist_1='/Users/rafy/Code/python/xlplot/.git'
+let g:netrw_dirhist_2='/Users/rafy/Documents/rangle/nuteup/nuteup-user/.git'
+let g:netrw_dirhist_3='/Users/rafy/.dotfiles'
