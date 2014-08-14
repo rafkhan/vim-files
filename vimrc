@@ -87,3 +87,5 @@ if has("gui_running")
 	set guioptions-=R
 	set guioptions-=b
 endif
+
+set laststatus=2
