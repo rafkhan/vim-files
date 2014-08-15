@@ -53,6 +53,9 @@ map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
 
+" select matching brace
+noremap % v%
+
 
 "save
 nmap <Leader>w :w<CR>
