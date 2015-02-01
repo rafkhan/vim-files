@@ -39,8 +39,8 @@ set noswapfile
 
 set backspace=indent,eol,start
 
-colorscheme jellybeans
 set t_Co=256
+colorscheme solarized
 
 
 "
@@ -53,6 +53,9 @@ map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
 
+nmap <Leader>h :tabp<CR>
+nmap <Leader>l :tabn<CR>
+
 " select matching brace
 noremap % v%
 
@@ -64,7 +67,7 @@ nmap <Leader>w :w<CR>
 nmap <Leader>n :noh<CR>
 
 "clear CtrlP cache
-nmap <Leader>c :CtrlPClearCache<CR>
+nmap <Leader>pc :CtrlPClearCache<CR>
 
 
 function! NumberToggle()
@@ -89,6 +92,13 @@ if has("gui_running")
 	set guioptions-=r
 	set guioptions-=R
 	set guioptions-=b
+
 endif
 
 set laststatus=2
+
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
+
